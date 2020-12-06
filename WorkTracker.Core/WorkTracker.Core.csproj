@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Mohmd\.nuget\packages\linq2db.sqlserver\3.1.6\contentFiles\any\any\LinqToDB.Templates\*" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator" Version="3.2.9" />
+    <PackageReference Include="LanguageExt.Core" Version="3.4.15" />
+    <PackageReference Include="linq2db.SqlServer" Version="3.1.6" />
+  </ItemGroup>
+
+</Project>
